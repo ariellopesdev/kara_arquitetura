@@ -1,16 +1,16 @@
-// CSS
+//CSS
 import "./App.css";
 
-// Router
+//Router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// Pages
+//Pages
 import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/kara_arquitetura">
+      <BrowserRouter>
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
