@@ -261,6 +261,48 @@ const Home = () => {
           <button>Enviar</button>
         </div>
       </section>
+      <section id="contact">
+        <img src="" alt="" />
+        <h3 className="content--title">Contato</h3>
+        <h4 className="content--context">Vamos começar o seu novo projeto.</h4>
+        <p className="content--text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+          omnis aliquid deleniti assumenda quibusdam harum, cumque velit
+          consequatur fugit tempora cupiditate illum totam aperiam ipsa illo
+          culpa maxime! Placeat, fuga.
+        </p>
+        <article id="contact__content">
+          <div className="contact__content--block">
+            <span>-</span>
+            <h6>Whatsapp</h6>
+            <span>(32)99829-1774</span>
+          </div>
+          <div className="contact__content--block">
+            <span>-</span>
+            <h6>Instagram</h6>
+            <span>@karaarquitetura</span>
+          </div>
+          <div className="contact__content--block">
+            <span>-</span>
+            <h6>Localização</h6>
+            <span>Juiz de Fora/MG</span>
+          </div>
+        </article>
+        <article id="contact__map">Aqui terá um mapa de jf</article>
+      </section>
+      <footer>
+        <img src="" alt="logo" />
+        <h3>Entre em contato</h3>
+        <p>(32)99829-1774</p>
+        <span>Juiz de Fora, Minas Gerais</span>
+        <span>-</span>
+        <p>
+          <a href="">Kara Arquitetura</a>, todos os direitos reservados
+        </p>
+        <p>
+          Criado por <a href="">ariellopesdev</a>
+        </p>
+      </footer>
     </div>
   );
 };
