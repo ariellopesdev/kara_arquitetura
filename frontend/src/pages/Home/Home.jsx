@@ -303,6 +303,7 @@ const Home = () => {
           Criado por <a href="">ariellopesdev</a>
         </p>
       </footer>
+      <section>footer</section>
     </div>
   );
 };
