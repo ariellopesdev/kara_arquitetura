@@ -304,6 +304,7 @@ const Home = () => {
         </p>
       </footer>
       <section>footer</section>
+      <section>footer</section>
     </div>
   );
 };
