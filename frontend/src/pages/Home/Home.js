@@ -8,6 +8,25 @@ import { FaWhatsapp } from "react-icons/fa";
 //Router
 import { Link } from "react-router-dom";
 
+//Images
+import Apartament_Blue_Kitchen from "../../assets/images/apartament_blue_kitchen.jpg";
+import Apartament_Blue from "../../assets/images/apartament_blue.jpg";
+import Apartament_RP_Living1 from "../../assets/images/apartament_rp_living1.jpg";
+import Apartament_RP_Living2 from "../../assets/images/apartament_rp_living2.jpg";
+import Bathroom_BlackandWhite from "../../assets/images/bathroom_blackandwhite.jpg";
+import Beauty_Salon from "../../assets/images/beauty_salon.jpg";
+import ButecoCentral_Bar from "../../assets/images/butecocentral_bar.jpg";
+import Facade from "../../assets/images/facade.jpg";
+import Gourmet_Area_Backyard from "../../assets/images/gourmet_area_backyard.jpg";
+import House_FL_Backyard_Facade from "../../assets/images/house_fl_backyard_facade.jpg";
+import House_FL_Pool1 from "../../assets/images/house_fl_pool1.jpg";
+import House_FL_Pool2 from "../../assets/images/house_fl_pool2.jpg";
+import House_LI_Kitchen from "../../assets/images/house_li_kitchen.jpg";
+import Kitchen_BlackandWhite1 from "../../assets/images/kitchen_blackandwhite1.jpg";
+import Kitchen_BlackandWhite2 from "../../assets/images/kitchen_blackandwhite2.jpg";
+import Kitchen from "../../assets/images/kitchen.jpg";
+import Spa from "../../assets/images/spa.jpg";
+
 const Home = () => {
   return (
     <div id="home">
@@ -36,12 +55,16 @@ const Home = () => {
         </nav>
       </header>
       <section id="hero">
-        <img id="hero__background"></img>
+        <img
+          id="hero__background"
+          src={House_FL_Backyard_Facade}
+          alt="Project House of FL Backyard Facade"
+        />
         <h2>Sejam bem-vindos</h2>
         <h1>Conheçam a Kara Arquitetura</h1>
       </section>
       <section id="about">
-        <img id="about__profile" alt="Ramon Efisio e Karla"></img>
+        <img id="about__profile" src={Spa} alt="Spa" />
         <article id="about__content">
           <h3 className="content--title">Quem somos</h3>
           <h4 className="content--context">Ramon Efísio</h4>
@@ -59,7 +82,11 @@ const Home = () => {
         </article>
       </section>
       <section id="services">
-        <img id="services__background" alt="A image"></img>
+        <img
+          id="services__background"
+          src={Gourmet_Area_Backyard}
+          alt="Área gourmet externa"
+        />
         <h3 className="content--title">Serviços</h3>
         <h4 className="content-context">O que nós oferecemos.</h4>
         <article id="services__block">
@@ -132,8 +159,8 @@ const Home = () => {
             className="projects__block--card"
           >
             <img
-              src="/images/apartamento.jpg"
-              alt="Apartamento moderno"
+              src={Bathroom_BlackandWhite}
+              alt="Banheiro preto e branco"
               className="projects__img"
             />
             <span className="projects__title">Apartamento Moderno</span>
@@ -145,8 +172,8 @@ const Home = () => {
             className="projects__block--card"
           >
             <img
-              src="/images/apartamento.jpg"
-              alt="Apartamento moderno"
+              src={Beauty_Salon}
+              alt="Salão de beleza"
               className="projects__img"
             />
             <span className="projects__title">Lavanderia</span>
@@ -158,8 +185,8 @@ const Home = () => {
             className="projects__block--card"
           >
             <img
-              src="/images/apartamento.jpg"
-              alt="Apartamento moderno"
+              src={ButecoCentral_Bar}
+              alt="Projeto de bar"
               className="projects__img"
             />
             <span className="projects__title">Cobertura Juiz de Fora</span>
@@ -171,8 +198,8 @@ const Home = () => {
             className="projects__block--card"
           >
             <img
-              src="/images/apartamento.jpg"
-              alt="Apartamento moderno"
+              src={House_FL_Pool1}
+              alt="Casa com piscina"
               className="projects__img"
             />
             <span className="projects__title">Alphaville - Fachada</span>
@@ -181,7 +208,11 @@ const Home = () => {
         <button id="callToAction__loadMore">Load More</button>
       </section>
       <section id="objetive--action">
-        <img></img>
+        <img
+          id="objetive__image"
+          src={House_FL_Pool2}
+          alt="Área externa com piscina"
+        />
         <h3 className="content--title">Nosso Objetivo</h3>
         <h4 className="content--context">Criar ambientes únicos.</h4>
         <article id="objetive--action__content">
@@ -262,7 +293,7 @@ const Home = () => {
         </div>
       </section>
       <section id="contact">
-        <img src="" alt="" />
+        <img id="contact__image" src={Kitchen} alt="Projeto de cozinha" />
         <h3 className="content--title">Contato</h3>
         <h4 className="content--context">Vamos começar o seu novo projeto.</h4>
         <p className="content--text">
@@ -291,7 +322,7 @@ const Home = () => {
         <article id="contact__map">Aqui terá um mapa de jf</article>
       </section>
       <footer>
-        <img src="" alt="logo" />
+        <img id="footer__image" src={Facade} alt="Kara Arquitetura" />
         <h3>Entre em contato</h3>
         <p>(32)99829-1774</p>
         <span>Juiz de Fora, Minas Gerais</span>
@@ -303,8 +334,6 @@ const Home = () => {
           Criado por <a href="">ariellopesdev</a>
         </p>
       </footer>
-      <section>footer</section>
-      <section>footer</section>
     </div>
   );
 };
