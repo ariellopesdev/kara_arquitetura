@@ -26,23 +26,38 @@ import Kitchen_BlackandWhite1 from "../../assets/images/kitchen_blackandwhite1.j
 import Kitchen_BlackandWhite2 from "../../assets/images/kitchen_blackandwhite2.jpg";
 import Kitchen from "../../assets/images/kitchen.jpg";
 import Spa from "../../assets/images/spa.jpg";
+import Logo from "../../assets/images/logo_kara.png";
 
 const Home = () => {
   return (
     <div id="home">
-      <header>
-        <div id="whatsapp__icon">
+      <div id="whatsapp__icon">
+        <a
+          href="https://wa.me/5532988386065"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaWhatsapp />
-        </div>
+        </a>
+      </div>
+      <header>
         <nav id="nav__mobile">
           <Link to="/" className="logo">
-            Kara Arquitetura
+            <img
+              className="logo_img"
+              src={Logo}
+              alt="Logo of Kara Arquitetura"
+            />
           </Link>
           <FiMenu />
         </nav>
         <nav id="nav__web">
           <Link to="/" className="logo">
-            Kara Arquitetura
+            <img
+              className="logo_img"
+              src={Logo}
+              alt="Logo of Kara Arquitetura"
+            />
           </Link>
           <ul id="nav__itens">
             <li>Home</li>
@@ -76,7 +91,12 @@ const Home = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <a className="callToaction__btn" href="https://wa.me/5532999999999">
+          <a
+            className="callToaction__btn"
+            href="https://wa.me/5532988386065"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Fazer orçamento
           </a>
         </article>
@@ -100,7 +120,12 @@ const Home = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </p>
-            <a className="callToaction__btn" href="https://wa.me/5532999999999">
+            <a
+              className="callToaction__btn"
+              href="https://wa.me/5532988386065"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Fazer orçamento
             </a>
           </div>
@@ -114,7 +139,12 @@ const Home = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </p>
-            <a className="callToaction__btn" href="https://wa.me/5532999999999">
+            <a
+              className="callToaction__btn"
+              href="https://wa.me/5532988386065"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Fazer orçamento
             </a>
           </div>
@@ -128,7 +158,12 @@ const Home = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </p>
-            <a className="callToaction__btn" href="https://wa.me/5532999999999">
+            <a
+              className="callToaction__btn"
+              href="https://wa.me/5532988386065"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Fazer orçamento
             </a>
           </div>
@@ -142,7 +177,12 @@ const Home = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </p>
-            <a className="callToaction__btn" href="https://wa.me/5532999999999">
+            <a
+              className="callToaction__btn"
+              href="https://wa.me/5532988386065"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Fazer orçamento
             </a>
           </div>
@@ -226,7 +266,12 @@ const Home = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <a className="callToaction__btn" href="https://wa.me/5532999999999">
+          <a
+            className="callToaction__btn"
+            href="https://wa.me/5532988386065"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Fazer orçamento
           </a>
         </article>
@@ -328,10 +373,15 @@ const Home = () => {
         <span>Juiz de Fora, Minas Gerais</span>
         <span>-</span>
         <p>
-          <a href="">Kara Arquitetura</a>, todos os direitos reservados
-        </p>
-        <p>
-          Criado por <a href="">ariellopesdev</a>
+          Criado por &copy;{" "}
+          <a
+            href="https://ariellopesdev.github.io/portfolio-professional/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ariellopesdev
+          </a>{" "}
+          2026. Todos os direitos reservados.
         </p>
       </footer>
     </div>
