@@ -60,11 +60,21 @@ const Home = () => {
             />
           </Link>
           <ul id="nav__itens">
-            <li>Home</li>
-            <li>Sobre nós</li>
-            <li>Serviços</li>
-            <li>Projetos</li>
-            <li>Contato</li>
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#about">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#services">Serviços</a>
+            </li>
+            <li>
+              <a href="#projects">Projetos</a>
+            </li>
+            <li>
+              <a href="#contact">Contato</a>
+            </li>
             <li>Painel</li>
           </ul>
         </nav>
@@ -82,7 +92,7 @@ const Home = () => {
         <img id="about__profile" src={Spa} alt="Spa" />
         <article id="about__content">
           <h3 className="content--title">Quem somos</h3>
-          <h4 className="content--context">Ramon Efísio</h4>
+          <h4 className="content--context">Kara Arquitetura</h4>
           <p className="content--text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -351,12 +361,12 @@ const Home = () => {
           <div className="contact__content--block">
             <span>-</span>
             <h6>Whatsapp</h6>
-            <span>(32)99829-1774</span>
+            <span>(32)98838-6065</span>
           </div>
           <div className="contact__content--block">
             <span>-</span>
             <h6>Instagram</h6>
-            <span>@karaarquitetura</span>
+            <span>@kara.arqurb</span>
           </div>
           <div className="contact__content--block">
             <span>-</span>
