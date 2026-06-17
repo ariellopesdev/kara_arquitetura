@@ -272,8 +272,9 @@ const Home = () => {
           <h3 className="content--title"> Seu sonho começa aqui</h3>
           <p className="content--text">
             Da primeira ideia aos detalhes finais, trabalhamos para transformar
-            expectativas em espaços reais que inspiram. Conte com a Kara Arquitetura
-            para criar ambientes personalizados, funcionais e feitos para durar.
+            expectativas em espaços reais que inspiram. Conte com a Kara
+            Arquitetura para criar ambientes personalizados, funcionais e feitos
+            para durar.
           </p>
           <a
             className="callToaction__btn"
@@ -292,57 +293,34 @@ const Home = () => {
           <div className="depoiments__content--card">
             <span className="depoiments__content--span">"</span>
             <p className="content--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Maravilhoso, Maravilhoso. Você conseguiu sentir tudo que eu
+              queria!
             </p>
-            <h6 className="client__name">-Ariel Lopes</h6>
+            <h6 className="client__name">-C. Paes</h6>
           </div>
           <div className="depoiments__content--card">
             <span className="depoiments__content--span">"</span>
             <p className="content--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              E são os melhores, confio plenamente neles!!! E estão trabalhando
+              com todo carinho porque é meu primeiro imóvel!
             </p>
-            <h6 className="client__name">-Ariel Lopes</h6>
+            <h6 className="client__name">-C. Paes</h6>
           </div>
           <div className="depoiments__content--card">
             <span className="depoiments__content--span">"</span>
             <p className="content--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Adoramos o projeto Ramon, meu irmão também gostou muito, o azul
+              realmente é muito bonito. E o orçamento ficou muito enxuto do
+              jeito que nós queríamos!
             </p>
-            <h6 className="client__name">-Ariel Lopes</h6>
-          </div>
-          <div className="depoiments__content--card">
-            <span className="depoiments__content--span">"</span>
-            <p className="content--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
-            <h6 className="client__name">-Ariel Lopes</h6>
+            <h6 className="client__name">-R. Robson</h6>
           </div>
         </article>
         <div className="depoiments__callToAction">
           <p className="depoiments__callToAction--text">
             Deixe você também um depoimento.
           </p>
-          <textarea>Deixe aqui seu depoimento</textarea>
+          <textarea placeholder="Conte como foi sua experiência com a Kara Arquitetura..."></textarea>
           <button>Enviar</button>
         </div>
       </section>

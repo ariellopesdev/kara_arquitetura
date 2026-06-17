@@ -422,7 +422,8 @@ section {
   max-width: 1200px;
   margin: 48px auto 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 280px));
+  justify-content: center;
   gap: 24px;
 }
 
@@ -447,28 +448,82 @@ section {
 }
 
 .depoiments__callToAction {
-  max-width: 600px;
+  max-width: 700px;
   margin: 56px auto 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.depoiments__callToAction--text {
+  font-family: var(--body-font);
+  color: var(--text);
+  font-size: 1rem;
 }
 
 .depoiments__callToAction textarea {
   width: 100%;
-  min-height: 120px;
-  margin-top: 16px;
-  padding: 16px;
+  min-height: 140px;
+
+  padding: 18px 20px;
+
   border: 1px solid var(--border);
-  resize: none;
+  border-radius: 12px;
+
+  background: var(--surface);
+
   font-family: var(--body-font);
+  font-size: 0.95rem;
+  color: var(--text);
+
+  resize: vertical;
+
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
+}
+
+.depoiments__callToAction textarea::placeholder {
+  color: var(--muted);
+}
+
+.depoiments__callToAction textarea:focus {
+  outline: none;
+
+  border-color: var(--primary);
+
+  box-shadow:
+    0 0 0 4px rgba(156, 107, 67, 0.15),
+    0 10px 25px rgba(0, 0, 0, 0.05);
+
+  transform: translateY(-2px);
 }
 
 .depoiments__callToAction button {
-  margin-top: 16px;
-  padding: 12px 28px;
+  padding: 12px 34px;
+
   border: none;
+  border-radius: 999px;
+
   background: var(--primary);
   color: #fff;
-  border-radius: 999px;
+
+  font-family: var(--body-font);
+  font-weight: 600;
+
   cursor: pointer;
+
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.depoiments__callToAction button:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
 }
 
 /************ CONTACT ************/
