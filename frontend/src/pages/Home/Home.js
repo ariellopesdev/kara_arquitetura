@@ -374,7 +374,18 @@ const Home = () => {
             <span>Juiz de Fora/MG</span>
           </div>
         </article>
-        <article id="contact__map">Aqui terá um mapa de jf</article>
+        <div className="contact__map--header">
+          <h5>Onde estamos</h5>
+          <p>Juiz de Fora • Minas Gerais</p>
+        </div>
+
+        <article id="contact__map">
+          <iframe
+            title="Mapa Kara Arquitetura"
+            src="https://www.google.com/maps?q=Juiz%20de%20Fora%20MG&t=k&z=13&output=embed"
+            loading="lazy"
+          />
+        </article>
       </section>
       <footer>
         <img id="footer__image" src={Facade} alt="Kara Arquitetura" />
