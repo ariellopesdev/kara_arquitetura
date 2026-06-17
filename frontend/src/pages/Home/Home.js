@@ -93,14 +93,19 @@ const Home = () => {
         <article id="about__content">
           <h3 className="content--title">Quem somos</h3>
           <h4 className="content--context">Kara Arquitetura</h4>
+
           <p className="content--text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            A Kara Arquitetura desenvolve projetos residenciais e comerciais que
+            unem funcionalidade, estética e personalidade. Trabalhamos cada
+            detalhe com dedicação e atenção, transformando ideias em espaços que
+            refletem as necessidades e o estilo de vida de cada cliente.
+            <br />
+            Nosso compromisso é criar soluções arquitetônicas modernas e
+            personalizadas, valorizando conforto, praticidade e beleza para
+            entregar ambientes únicos e inspiradores.
+            <br />
           </p>
+
           <a
             className="callToaction__btn"
             href="https://wa.me/5532988386065"
@@ -121,14 +126,14 @@ const Home = () => {
         <h4 className="content-context">O que nós oferecemos.</h4>
         <article id="services__block">
           <div className="services__block--card">
-            <h5 className="block__card--title">Planejamento Arquitetônico</h5>
+            <h5 className="block__card--title">Projeto de construção</h5>
             <p className="block__card--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Desenvolvemos projetos arquitetônicos completos para construções
+              iniciadas do zero, residenciais ou comerciais, unindo
+              criatividade, funcionalidade e planejamento. Cada detalhe é
+              pensado para criar ambientes que valorizam o espaço, atendem às
+              necessidades do cliente e proporcionam conforto, estética e
+              praticidade.
             </p>
             <a
               className="callToaction__btn"
@@ -140,14 +145,14 @@ const Home = () => {
             </a>
           </div>
           <div className="services__block--card">
-            <h5 className="block__card--title">Interiores</h5>
+            <h5 className="block__card--title">Projeto de reforma</h5>
             <p className="block__card--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Transformamos ambientes com projetos que renovam espaços e
+              melhoram sua funcionalidade. Buscamos soluções inteligentes para
+              modernizar e otimizar cada ambiente, respeitando os objetivos de
+              cada cliente. Nosso foco é criar espaços confortáveis, funcionais
+              e visualmente equilibrados, aproveitando ao máximo o potencial de
+              cada projeto.
             </p>
             <a
               className="callToaction__btn"
@@ -159,14 +164,13 @@ const Home = () => {
             </a>
           </div>
           <div className="services__block--card">
-            <h5 className="block__card--title">Consultoria</h5>
+            <h5 className="block__card--title">Consultorias em arquitetura</h5>
             <p className="block__card--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Oferecemos consultorias personalizadas para auxiliar na tomada de
+              decisões relacionadas a pequenos projetos, reformas, acabamentos e
+              organização de ambientes. Nossa orientação profissional ajuda a
+              transformar ideias em soluções viáveis, alinhadas ao orçamento e
+              às expectativas de cada cliente.
             </p>
             <a
               className="callToaction__btn"
@@ -178,14 +182,13 @@ const Home = () => {
             </a>
           </div>
           <div className="services__block--card">
-            <h5 className="block__card--title">Acompanhamento de obras</h5>
+            <h5 className="block__card--title">Acompanhamento de obra</h5>
             <p className="block__card--text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Acompanhamos a execução de projetos autorais para garantir que
+              cada etapa da obra seja realizada conforme o projeto desenvolvido.
+              Nosso objetivo é assegurar qualidade, organização e fidelidade aos
+              detalhes planejados, proporcionando mais tranquilidade e segurança
+              durante todo o processo construtivo.
             </p>
             <a
               className="callToaction__btn"
@@ -264,17 +267,13 @@ const Home = () => {
           alt="Área externa com piscina"
         />
         <h3 className="content--title">Nosso Objetivo</h3>
-        <h4 className="content--context">Criar ambientes únicos.</h4>
+        <h4 className="content--context">Transformar sonhos em realidade.</h4>
         <article id="objetive--action__content">
-          <h3 className="content--title">Este é o momento</h3>
-          <h4 className="content--context">Faça seu orçamento</h4>
+          <h3 className="content--title"> Seu sonho começa aqui</h3>
           <p className="content--text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Da primeira ideia aos detalhes finais, trabalhamos para transformar
+            expectativas em espaços reais que inspiram. Conte com a Kara Arquitetura
+            para criar ambientes personalizados, funcionais e feitos para durar.
           </p>
           <a
             className="callToaction__btn"
@@ -352,10 +351,13 @@ const Home = () => {
         <h3 className="content--title">Contato</h3>
         <h4 className="content--context">Vamos começar o seu novo projeto.</h4>
         <p className="content--text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-          omnis aliquid deleniti assumenda quibusdam harum, cumque velit
-          consequatur fugit tempora cupiditate illum totam aperiam ipsa illo
-          culpa maxime! Placeat, fuga.
+          Acreditamos que grandes projetos começam com uma{" "}
+          <span className="text-highlight">conexão genuína</span> entre cliente
+          e profissional. Compartilhe sua ideia conosco e descubra como podemos
+          transformar seus{" "}
+          <span className="text-highlight">sonhos em realidade</span>. Será um
+          prazer fazer parte da realização do seu{" "}
+          <span className="text-highlight">próximo projeto</span>.
         </p>
         <article id="contact__content">
           <div className="contact__content--block">

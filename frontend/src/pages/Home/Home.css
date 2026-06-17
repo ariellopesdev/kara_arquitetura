@@ -223,8 +223,9 @@ section {
 
 .content--text {
   color: var(--muted);
-  line-height: 1.8;
+  line-height: 1.9;
   font-size: 1rem;
+  text-align: justify;
 }
 
 .callToaction__btn {
@@ -540,6 +541,23 @@ section {
 
 .contact__map--header p {
   color: var(--muted);
+}
+
+.text-highlight {
+  color: var(--primary);
+  font-weight: 600;
+  position: relative;
+}
+
+.text-highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: var(--primary);
+  opacity: 0.5;
 }
 
 /************ FOOTER ************/
