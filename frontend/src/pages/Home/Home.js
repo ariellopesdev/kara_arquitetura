@@ -13,9 +13,9 @@ import Apartament_Blue_Kitchen from "../../assets/images/apartament_blue_kitchen
 import Apartament_Blue from "../../assets/images/apartament_blue.jpg";
 import Apartament_RP_Living1 from "../../assets/images/apartament_rp_living1.jpg";
 import Apartament_RP_Living2 from "../../assets/images/apartament_rp_living2.jpg";
-import Bathroom_BlackandWhite from "../../assets/images/bathroom_blackandwhite.jpg";
-import Beauty_Salon from "../../assets/images/beauty_salon.jpg";
-import ButecoCentral_Bar from "../../assets/images/butecocentral_bar.jpg";
+import Bathroom_BlackandWhite1 from "../../assets/images/bathroom_blackandwhite1.jpg";
+import Beauty_Salon1 from "../../assets/images/beauty_salon1.jpg";
+import ButecoCentral_Bar1 from "../../assets/images/butecocentral_bar1.jpg";
 import Facade from "../../assets/images/facade.jpg";
 import Gourmet_Area_Backyard from "../../assets/images/gourmet_area_backyard.jpg";
 import House_FL_Backyard_Facade from "../../assets/images/house_fl_backyard_facade.jpg";
@@ -207,47 +207,39 @@ const Home = () => {
         <article id="projects__block">
           <a
             href="/projetos/apartamento-moderno"
-            target="_blank"
-            rel="noopener noreferrer"
             className="projects__block--card"
           >
             <img
-              src={Bathroom_BlackandWhite}
+              src={Bathroom_BlackandWhite1}
               alt="Banheiro preto e branco"
               className="projects__img"
             />
-            <span className="projects__title">Apartamento Moderno</span>
+            <span className="projects__title">Banheiro Moderno</span>
           </a>
           <a
-            href="/projetos/apartamento-moderno"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/projetos/salao-de-beleza"
             className="projects__block--card"
           >
             <img
-              src={Beauty_Salon}
+              src={Beauty_Salon1}
               alt="Salão de beleza"
               className="projects__img"
             />
-            <span className="projects__title">Lavanderia</span>
+            <span className="projects__title">Salão de Beleza</span>
           </a>
           <a
-            href="/projetos/apartamento-moderno"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/projetos/buteco-central"
             className="projects__block--card"
           >
             <img
-              src={ButecoCentral_Bar}
+              src={ButecoCentral_Bar1}
               alt="Projeto de bar"
               className="projects__img"
             />
-            <span className="projects__title">Cobertura Juiz de Fora</span>
+            <span className="projects__title">Buteco Central</span>
           </a>
           <a
-            href="/projetos/apartamento-moderno"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/projetos/gourmetarea-linhares"
             className="projects__block--card"
           >
             <img
@@ -255,7 +247,7 @@ const Home = () => {
               alt="Casa com piscina"
               className="projects__img"
             />
-            <span className="projects__title">Alphaville - Fachada</span>
+            <span className="projects__title">Linhares - Área Gourmet</span>
           </a>
         </article>
         <button id="callToAction__loadMore">Load More</button>
