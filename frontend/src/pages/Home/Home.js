@@ -95,14 +95,15 @@ const Home = () => {
           <h4 className="content--context">Kara Arquitetura</h4>
 
           <p className="content--text">
-            A Kara Arquitetura desenvolve projetos residenciais e comerciais que
-            unem funcionalidade, estética e personalidade. Trabalhamos cada
+            A Kara é um escritório que desenvolve Projetos Arquitetônicos e de
+            Interiores, para a sua casa ou para o seu negócio. Trabalhamos cada
             detalhe com dedicação e atenção, transformando ideias em espaços que
-            refletem as necessidades e o estilo de vida de cada cliente.
+            refletem o estilo e as necessidades de cada cliente.
             <br />
-            Nosso compromisso é criar soluções arquitetônicas modernas e
-            personalizadas, valorizando conforto, praticidade e beleza para
-            entregar ambientes únicos e inspiradores.
+            Nosso compromisso é melhorar a interação entre as pessoas e o
+            ambiente em que vivem. Criamos soluções personalizadas, valorizando
+            a durabilidade, praticidade e estética para entregar ambientes
+            únicos e inspiradores.
             <br />
           </p>
 
@@ -126,14 +127,16 @@ const Home = () => {
         <h4 className="content-context">O que nós oferecemos.</h4>
         <article id="services__block">
           <div className="services__block--card">
-            <h5 className="block__card--title">Projeto de construção</h5>
+            <h5 className="block__card--title">Projeto de Construção</h5>
             <p className="block__card--text">
-              Desenvolvemos projetos arquitetônicos completos para construções
-              iniciadas do zero, residenciais ou comerciais, unindo
-              criatividade, funcionalidade e planejamento. Cada detalhe é
-              pensado para criar ambientes que valorizam o espaço, atendem às
-              necessidades do cliente e proporcionam conforto, estética e
-              praticidade.
+              Transformamos suas ideias em projetos arquitetônicos para
+              residências, edifícios, estabelecimentos comerciais e muito mais.
+              Analisamos o terreno onde a construção será implantada, suas
+              condicionantes, o programa de necessidades, o sistema construtivo
+              adotado e os impactos de cada decisão na execução da obra.
+              Desenvolvemos projetos que unem seus objetivos, expectativas e
+              necessidades à identidade e à mensagem que o empreendimento deseja
+              transmitir.
             </p>
             <a
               className="callToaction__btn"
@@ -145,14 +148,16 @@ const Home = () => {
             </a>
           </div>
           <div className="services__block--card">
-            <h5 className="block__card--title">Projeto de reforma</h5>
+            <h5 className="block__card--title">Projeto de Interiores</h5>
             <p className="block__card--text">
-              Transformamos ambientes com projetos que renovam espaços e
-              melhoram sua funcionalidade. Buscamos soluções inteligentes para
-              modernizar e otimizar cada ambiente, respeitando os objetivos de
-              cada cliente. Nosso foco é criar espaços confortáveis, funcionais
-              e visualmente equilibrados, aproveitando ao máximo o potencial de
-              cada projeto.
+              Planejamos os ambientes internos de casas, apartamentos, espaços
+              comerciais e corporativos, auxiliando na reorganização dos
+              espaços, escolha de mobiliário, definição de cores e seleção de
+              materiais e acabamentos. Nesse tipo de projeto, podem acontecer
+              intervenções mais drásticas como demolições e novas construções.
+              Ou não envolver alterações estruturais no imóvel, priorizando a
+              preservação das instalações e dos revestimentos existentes. O
+              nível de intervenção dependerá da sua necessidade.
             </p>
             <a
               className="callToaction__btn"
@@ -164,13 +169,15 @@ const Home = () => {
             </a>
           </div>
           <div className="services__block--card">
-            <h5 className="block__card--title">Consultorias em arquitetura</h5>
+            <h5 className="block__card--title">Consultorias em Arquitetura</h5>
             <p className="block__card--text">
-              Oferecemos consultorias personalizadas para auxiliar na tomada de
-              decisões relacionadas a pequenos projetos, reformas, acabamentos e
-              organização de ambientes. Nossa orientação profissional ajuda a
-              transformar ideias em soluções viáveis, alinhadas ao orçamento e
-              às expectativas de cada cliente.
+              As consultorias servem quando não há necessidade de um projeto
+              completo, resolvendo problemas pontuais ou de baixa complexidade.
+              Oferecemos soluções personalizadas para auxiliar na tomada de
+              decisões relacionadas a pequenas reformas, escolhas de
+              acabamentos, marcenaria ou organização de ambientes. Precisa de um
+              resultado rápido, de custo mais baixo, ou para pequenos espaços?
+              Nossa consultoria é para você!
             </p>
             <a
               className="callToaction__btn"
@@ -182,13 +189,17 @@ const Home = () => {
             </a>
           </div>
           <div className="services__block--card">
-            <h5 className="block__card--title">Acompanhamento de obra</h5>
+            <h5 className="block__card--title">Acompanhamento de Obra</h5>
             <p className="block__card--text">
-              Acompanhamos a execução de projetos autorais para garantir que
-              cada etapa da obra seja realizada conforme o projeto desenvolvido.
-              Nosso objetivo é assegurar qualidade, organização e fidelidade aos
-              detalhes planejados, proporcionando mais tranquilidade e segurança
-              durante todo o processo construtivo.
+              Monitoramos o progresso da execução para garantir a conformidade
+              com o projeto, esclarecendo dúvidas das equipes envolvidas e
+              verificando detalhes técnicos no local. Nosso objetivo é assegurar
+              qualidade, organização e fidelidade aos detalhes planejados,
+              proporcionando mais tranquilidade durante todo o processo
+              construtivo. As visitas podem ocorrer regularmente conforme a
+              progressão da obra, ou solicitadas quando necessário. Realizamos
+              acompanhamento de obra apenas de projetos elaborados por nossa
+              equipe.
             </p>
             <a
               className="callToaction__btn"
@@ -216,10 +227,7 @@ const Home = () => {
             />
             <span className="projects__title">Banheiro Moderno</span>
           </a>
-          <a
-            href="/projetos/salao-de-beleza"
-            className="projects__block--card"
-          >
+          <a href="/projetos/salao-de-beleza" className="projects__block--card">
             <img
               src={Beauty_Salon1}
               alt="Salão de beleza"
@@ -227,10 +235,7 @@ const Home = () => {
             />
             <span className="projects__title">Salão de Beleza</span>
           </a>
-          <a
-            href="/projetos/buteco-central"
-            className="projects__block--card"
-          >
+          <a href="/projetos/buteco-central" className="projects__block--card">
             <img
               src={ButecoCentral_Bar1}
               alt="Projeto de bar"
@@ -259,14 +264,15 @@ const Home = () => {
           alt="Área externa com piscina"
         />
         <h3 className="content--title">Nosso Objetivo</h3>
-        <h4 className="content--context">Transformar sonhos em realidade.</h4>
+        <h4 className="content--context">
+          Transformar sonhos em projetos concretos.
+        </h4>
         <article id="objetive--action__content">
           <h3 className="content--title"> Seu sonho começa aqui</h3>
           <p className="content--text">
-            Da primeira ideia aos detalhes finais, trabalhamos para transformar
-            expectativas em espaços reais que inspiram. Conte com a Kara
-            Arquitetura para criar ambientes personalizados, funcionais e feitos
-            para durar.
+            Da primeira ideia aos detalhes finais, trabalhamos para converter
+            expectativas em espaços reais que inspiram e acolhem. Conte com a
+            Kara para transformar seus sonhos em lar.
           </p>
           <a
             className="callToaction__btn"
@@ -321,10 +327,7 @@ const Home = () => {
         <h3 className="content--title">Contato</h3>
         <h4 className="content--context">Vamos começar o seu novo projeto.</h4>
         <p className="content--text">
-          Acreditamos que grandes projetos começam com uma{" "}
-          <span className="text-highlight">conexão genuína</span> entre cliente
-          e profissional. Compartilhe sua ideia conosco e descubra como podemos
-          transformar seus{" "}
+          Compartilhe sua ideia conosco e descubra como podemos transformar seus{" "}
           <span className="text-highlight">sonhos em realidade</span>. Será um
           prazer fazer parte da realização do seu{" "}
           <span className="text-highlight">próximo projeto</span>.
